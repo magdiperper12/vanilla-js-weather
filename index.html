@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>World-Class City & Weather Finder</title>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet/dist/leaflet.css" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<h1>city location & Weather condition</h1>
+		<div id="input-container">
+			<input
+				type="text"
+				id="city-input"
+				placeholder="Enter a city name" />
+			<button onclick="findCity()">Find City</button>
+		</div>
+
+		<div id="map"></div>
+
+		<div id="weather">
+			<h2 id="weather-info">Weather Information</h2>
+		</div>
+
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
